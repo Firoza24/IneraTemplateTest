@@ -12,7 +12,7 @@
   <name value="IneraCoreTemplate"/>
   <title value="Inera FHIR Implementation Guide Template"/>
   <status value="draft"/>
-  <date value="2026-10-28T13:23:04+00:00"/>
+  <date value="2026-10-30T09:20:10+00:00"/>
   <publisher value="Inera AB"/>
   <contact>
     <name value="Inera AB"/>
@@ -297,6 +297,17 @@
       <name value="Inera Patient Example"/>
       <description value="A minimal example of a patient conforming to the IneraPatient profile."/>
       <exampleCanonical value="https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/stockholm-genomic-specimen"/>
+      </reference>
+      <name value="Stockholm Genomic Specimen"/>
+      <description value="Profile to store the data about the specimen used in the genomic study. It is also used to relate both procedures and result files to a certain specimen."/>
+      <exampleBoolean value="false"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

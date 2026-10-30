@@ -10,6 +10,9 @@ Generic: line 0, col 0, Error - The link 'StructureDefinition-[Profil].html' for
 /home/runner/work/IneraTemplateTest/IneraTemplateTest/fsh-generated/resources/StructureDefinition-IneraPatient.json: line 1, col 28834, Info - There are no valid display names found for the code urn:iso:std:iso:3166#SE for language(s) 'sv'. The display is 'Sweden' which is a valid display for the default language (INVALID)
 /home/runner/work/IneraTemplateTest/IneraTemplateTest/fsh-generated/resources/StructureDefinition-IneraPatient.json: line 1, col 37216, Info - extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.0 är föråldrad med noteringen: 'Use additionalBinding extension or element instead' (BUSINESSRULE)
 /home/runner/work/IneraTemplateTest/IneraTemplateTest/fsh-generated/resources/StructureDefinition-IneraPatient.json: line 0, col 0, Info - The resource StructureDefinition/IneraPatient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html) (BUSINESSRULE)
+/home/runner/work/IneraTemplateTest/IneraTemplateTest/fsh-generated/resources/StructureDefinition-stockholm-genomic-specimen.json: line 1, col 13112, Info - There are no valid display names found for the code urn:iso:std:iso:3166#SE for language(s) 'sv'. The display is 'Sweden' which is a valid display for the default language (INVALID)
+/home/runner/work/IneraTemplateTest/IneraTemplateTest/fsh-generated/resources/StructureDefinition-stockholm-genomic-specimen.json: line 0, col 0, Info - The resource StructureDefinition/stockholm-genomic-specimen could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html) (BUSINESSRULE)
+/home/runner/work/IneraTemplateTest/IneraTemplateTest/fsh-generated/resources/StructureDefinition-stockholm-genomic-specimen.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 
-err = 0, warn = 1, info = 5, broken links = 3
+err = 0, warn = 2, info = 7, broken links = 3
 IG Publisher Version: 3.0.1

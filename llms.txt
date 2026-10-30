@@ -24,6 +24,7 @@
 ### Resource Profiles
 
 * [Inera Patient](sv/StructureDefinition-IneraPatient.md)
+* [Stockholm Genomic Specimen](sv/StructureDefinition-stockholm-genomic-specimen.md)
 
 ### ImplementationGuides
 

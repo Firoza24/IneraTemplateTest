@@ -14,7 +14,7 @@
   "name" : "IneraCoreTemplate",
   "title" : "Inera FHIR Implementation Guide Template",
   "status" : "draft",
-  "date" : "2026-10-28T13:23:04+00:00",
+  "date" : "2026-10-30T09:20:10+00:00",
   "publisher" : "Inera AB",
   "contact" : [{
     "name" : "Inera AB",
@@ -398,6 +398,22 @@
       "name" : "Inera Patient Example",
       "description" : "A minimal example of a patient conforming to the IneraPatient profile.",
       "exampleCanonical" : "https://fhir.inera.se/ig/template/StructureDefinition/IneraPatient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stockholm-genomic-specimen.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/stockholm-genomic-specimen"
+      },
+      "name" : "Stockholm Genomic Specimen",
+      "description" : "Profile to store the data about the specimen used in the genomic study. It is also used to relate both procedures and result files to a certain specimen.",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{
